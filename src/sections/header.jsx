@@ -353,12 +353,12 @@ export default function HeaderElem({ isModalOpen }) {
                     <Logo $visible={isVisible} to="/Igoshina/">Игошина Анастасия</Logo>
                     <Nav>
                         <NavItem to="/Igoshina/workFormats">Форматы работы</NavItem>
-                        <SubmenuWrapper style={{ height: "60px" }}>Инфопродукты<Triangle/>
+                        {/* <SubmenuWrapper style={{ height: "60px" }}>Инфопродукты<Triangle/>
                             <Submenu>
                                 <NavItem>Инфопродукты</NavItem>
                                 <NavItem  to="/Igoshina/products">Сборники рецептов</NavItem>
                             </Submenu>
-                        </SubmenuWrapper>
+                        </SubmenuWrapper> */}
                         <NavItem to="/Igoshina/promo">Промокоды</NavItem>
                         <NavItem to="/Igoshina/about">Обо мне</NavItem>
                     </Nav>

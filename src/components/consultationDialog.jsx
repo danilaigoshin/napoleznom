@@ -1,7 +1,7 @@
 import { createPortal } from "react-dom";
 import { useRef, useEffect} from "react";
 import styled from 'styled-components';
-import { workTextsOne } from "../JS/workTexts";
+import { workTextsTwo } from "../JS/workTexts";
 import { DiplomItemWrapper, CloseModalButton, DiplomItemInner } from "./diplomDialog";
 import WorkItem from "./WorkItem";
 import { breakpoints } from "./breakpoints";
@@ -62,7 +62,7 @@ const ConsultationDialog = ({ open, onClose }) => {
         <DiplomItemWrapper ref={consultationModal}>
             <CloseModalButton onClick={onClose} />
             <ConsultationItemInner ref={consultationItemInner}>
-                {workTextsOne.map((workTextOne) => (
+                {workTextsTwo.map((workTextOne) => (
                     <WorkItem key={workTextOne.id} {...workTextOne} />
                 ))}
             </ConsultationItemInner>

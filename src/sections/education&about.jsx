@@ -53,6 +53,10 @@ export const EducationTitle = styled(TitleH3)`
 margin: .5em 0;
 `
 
+export const EducationSectionTitle = styled(TitleH3)`
+margin: 0;
+`
+
 export const EducationPhoto = styled.div`
 width: 45%;
 
@@ -103,9 +107,12 @@ export function EducationSection(){
                     <img src={Image.AboutHeader} alt="" />
                 </EducationPhoto>
                 <EducationText>
-                    <EducationTitle>Игошина Анастасия</EducationTitle>
-                    <EducationParagraph>Я дипломированный нутрициолог и член Ассоциации Нутрициологов и Коучей по Здоровью.</EducationParagraph>
-                    <EducationParagraph>В рамках своих консультаций я не даю банальных, всем известных советов по здоровью. Мои рекомендации всегда строго персонализированы и индивидуальны.</EducationParagraph>
+                    <div>
+                      <EducationSectionTitle>Меня зовут</EducationSectionTitle>
+                      <EducationSectionTitle>Игошина Анастасия</EducationSectionTitle>
+                    </div>
+                    <AboutParagraph style={{ paddingTop: 20, paddingBottom: 20 }}>Я практикующий нутрициолог и член Ассоциации Нутрициологов и Коучей по Здоровью.</AboutParagraph>
+                    <AboutParagraph>В рамках своих консультаций я использую интегративный подход. Мои рекомендации всегда строго персонализированы и индивидуальны.</AboutParagraph>
                     <Paragraph style={{fontWeight: "600", marginTop: "2em"}}>Образование</Paragraph>
                     {educationTexts.map((educationText) => (
                             <EducationItem key={educationText.id} {...educationText} />
@@ -186,9 +193,12 @@ export function AboutSection(){
                     <img src={Image.AboutHeader} alt="" />
                 </AboutPhoto>
                 <AboutText>
-                    <EducationTitle>Я Игошина Анастасия – дипломированный нутрициолог</EducationTitle>
-                    <AboutParagraph>Я дипломированный нутрициолог и член Ассоциации Нутрициологов и Коучей по Здоровью.</AboutParagraph>
-                    <AboutParagraph>В рамках своих консультаций я не даю банальных, всем известных советов по здоровью. Мои рекомендации всегда строго персонализированы и индивидуальны.</AboutParagraph>
+                    <div >
+                      <EducationSectionTitle>Меня зовут</EducationSectionTitle>
+                      <EducationSectionTitle>Игошина Анастасия</EducationSectionTitle>
+                    </div>
+                    <AboutParagraph>Я практикующий нутрициолог и член Ассоциации Нутрициологов и Коучей по Здоровью.</AboutParagraph>
+                    <AboutParagraph>В рамках своих консультаций я использую интегративный подход. Мои рекомендации всегда строго персонализированы и индивидуальны.</AboutParagraph>
                     <ButtonsBlock>
                         <EducationButtonStyled href="https://t.me/igoshinanastasia">Телеграм</EducationButtonStyled>
                         <EducationButtonStyled>WhatsApp</EducationButtonStyled>

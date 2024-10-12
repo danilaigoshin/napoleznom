@@ -239,7 +239,7 @@ export default function ContactsSection(){
                 <ContactsInner>
                     <ContactsButtons>
                         <ContactButton href="https://t.me/igoshinanastasia">Телеграм</ContactButton>
-                        <ContactButton>WhatsApp</ContactButton>
+                        <ContactButton href="https://wa.me/79651319365">WhatsApp</ContactButton>
                         <ContactButton href="mailto:Igoshina94@gmail.com">Почта</ContactButton>
                         <ContactButton href="https://t.me/napoleznom">Телеграм-канал</ContactButton>
                     </ContactsButtons>

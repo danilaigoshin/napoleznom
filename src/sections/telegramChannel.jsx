@@ -98,7 +98,7 @@ export default function TelegramChannelSection(){
                 <TelegramElem>
                     <TelegramElemText>
                         <TelegramTitle>Автор телеграм-канала<span>"Что-то на полезном"</span></TelegramTitle>
-                        <TelegramParagraph>В нем я регулярно делюсь своими знаниями и мотивирую тысячи людей вести здоровый образ жизни </TelegramParagraph>
+                        <TelegramParagraph>На канале я регулярно делюсь своими знаниями и мотивирую тысячи людей заботиться о своем здоровье </TelegramParagraph>
                         <TelegramButton href="https://t.me/napoleznom">Перейти в телеграм-канал</TelegramButton>
                     </TelegramElemText>
                         <img src={Image.IceCream} alt=""/>

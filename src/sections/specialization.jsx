@@ -30,7 +30,7 @@ export default function SpecializationSection(){
     return(
         <Section>
             <Container style={{height: "fit-content"}}>
-                <TitleH3>Специализация</TitleH3>
+                <TitleH3>С какими состояниями я работаю</TitleH3>
                 <SpecializationInner>
                 {specializationTexts.map((specializationText) => (
                         <SpecializationItem hasBorder key={specializationText.content} {...specializationText} />

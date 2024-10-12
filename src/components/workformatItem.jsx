@@ -141,10 +141,11 @@ export default function WorkFormatItem({ id, index, title, subtitle, price, desc
             workTexts = workTextsOne;
             break;
         case 2:
-            workTexts = ["CONSULTATION_MARKER", ...workTextsTwo];
+            workTexts = [...workTextsTwo];
+            // workTexts = ["CONSULTATION_MARKER", ...workTextsTwo];
             break;
         case 3:
-            workTexts = ["CONSULTATION_MARKER", ...workTextsThree, "BONUS_MARKER", ...workTextsFour];
+            workTexts = ["CONSULTATION_MARKER", ...workTextsThree];
             break;
         default:
             break;

@@ -262,7 +262,7 @@ const DiplomItem = ({ open, onClose, initialSlideIndex }) => {
           mousewheel={true}
           pagination={{ clickable: true }}
         >
-          {DiplomTexts.map((DiplomText, index) => (
+          {[...DiplomTexts].reverse().map((DiplomText, index) => (
             <StyledSwiperSlide key={DiplomText.id}>
               <img src={DiplomText.image} />
               {/* <SwiperParagraph>{DiplomText.content}</SwiperParagraph> */}
