@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Tenor+Sans:regular);
+@import url(https://fonts.googleapis.com/css?family=Raleway:regular,500,600,italic,500italic,600italic);
+
+
+:root{
+  --mainGreen: oklch(62.58% 0.116 128.25);
+  --lineGreen: oklch(92.74% 0.023 126.24);
+  --backgroundColor:oklch(97.31% 0 0);
+  --blackText: oklch(20.53% 0.02 153.83);
+  --secondaryText: oklch(38.48% 0.015 153.22);
+  --greyText: oklch(63.5% 0.007 159.97);
+  --borderGreen: oklch(85.36% 0.047 126.13);
+  --borderGreenHovered: oklch(77.3% 0.054 126.67);
+  --mainGreenHovered: oklch(54.36% 0.113 128.95);
+  --borderGrey: oklch(92.99% 0.002 145.56);
+  --whiteColor: oklch(100% 0 0);
+  --font-family-1: "Tenor sans";
+  --font-family-2: "Raleway";
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--backgroundColor);
+    overflow-x: hidden;
+    min-width: 280px;
+}
+
+body{
+    padding: 0 40px;
+    margin-top: 5vw;
+
+    @media(max-width: 640px){
+        padding: 0 20px;
+        margin-top: 8vw;
+    }
+
+    @media(max-width: 500px){
+        padding: 0 15px;
+        margin-top: 15vw;
+    }
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+a,
+input,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    outline: none;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    margin: 0;
+}
+a, a:hover,
+a:visited,
+button {
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+}
+
+
+ul, li {
+    list-style-type: none;
+}
+.body__locked {
+    overflow-y: hidden;
+    position: fixed;
+}
