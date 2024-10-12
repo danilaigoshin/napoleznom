@@ -17,7 +17,7 @@ export default function CooperationSection() {
     return (
         <Section>
             <Container>
-                <TitleH3>Форматы cотрудничества</TitleH3>
+                <TitleH3>Форматы работы</TitleH3>
                 <CooperationContent>
                     {coopTexts.map((coopText, index) => (
                         <CooperationItem
