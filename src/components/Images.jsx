@@ -1,5 +1,6 @@
 import AboutMePhoto from '/AboutMe.jpg';
 import AboutHeader from "/AboutHeader.jpg";
+import AboutHeaderAboutMe from '/AboutHeaderAboutMe.jpg';
 import IntroImage from "/Intro-photo.jpg";
 import IceCream from "/ice-cream.png";
 import MailoutImage from "/Mailout-photo_new.jpg";
@@ -15,6 +16,7 @@ const Image = {
     IntroImage,
     AboutMePhoto,
     AboutHeader,
+    AboutHeaderAboutMe,
     IceCream,
     MailoutImage,
     ButtonBackground,

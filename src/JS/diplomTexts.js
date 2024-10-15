@@ -16,6 +16,8 @@ import Diplom_Fivthteen from "/diploms/15.jpg";
 import Diplom_Sixtenn from "/diploms/16.jpg";
 import Diplom_Seventeen from "/diploms/17.jpg";
 import Diplom_Eighthteen from "/diploms/18.jpg";
+import Diplom_Nineteen from "/diploms/19.png";
+import Diplom_Twenty from "/diploms/20.jpg";
 
 export const DiplomTexts = [
     {
@@ -36,6 +38,11 @@ export const DiplomTexts = [
     {
         id: 4,
         image: Diplom_Four,
+        content: "2022 - Международный Институт Интегративной Нутрициологии, сертификат о прохождении курса “База фитнес-нутрициологии и технология жиросжигания”",
+    },
+    {
+        id: 20,
+        image: Diplom_Twenty,
         content: "2022 - Международный Институт Интегративной Нутрициологии, сертификат о прохождении курса “База фитнес-нутрициологии и технология жиросжигания”",
     },
     {
@@ -96,6 +103,11 @@ export const DiplomTexts = [
     {
         id: 16,
         image: Diplom_Eighthteen,
+        content: "2022 - Международный Институт Интегративной Нутрициологии, сертификат о прохождении курса “База фитнес-нутрициологии и технология жиросжигания”",
+    },
+    {
+        id: 17,
+        image: Diplom_Nineteen,
         content: "2022 - Международный Институт Интегративной Нутрициологии, сертификат о прохождении курса “База фитнес-нутрициологии и технология жиросжигания”",
     },
 ]

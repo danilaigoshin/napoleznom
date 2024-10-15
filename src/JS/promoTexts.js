@@ -57,7 +57,7 @@ export const promocodes = [
         icon: createSVGElement(`<svg role="none" data-mode="stroke" xmlns="http://www.w3.org/2000/svg" width="42" height="42" viewBox="0 0 24 24" stroke-width="1" stroke="var(--mainGreen)" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M6.8 11a6 6 0 1 0 10.396 0l-5.197-8-5.2 8z"></path></svg>`),
         title: "NAPOLEZNOM",
         content: "— промокод на скидку 5% на всю продукцию PreventEra",
-        link: "https://preventera.pro/",
+        link: "https://preventera.pro/?refId=3708",
     },
 ];
 

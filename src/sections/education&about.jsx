@@ -190,7 +190,7 @@ export function AboutSection(){
         <Section>
             <AboutInner>
                 <AboutPhoto>
-                    <img src={Image.AboutHeader} alt="" />
+                    <img src={Image.AboutHeaderAboutMe} alt="" />
                 </AboutPhoto>
                 <AboutText>
                     <div >
